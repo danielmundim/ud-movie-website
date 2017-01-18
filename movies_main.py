@@ -6,7 +6,8 @@ Created on Tue Jan 17 12:08:07 2017
 """
 import fresh_tomatoes
 import media
-##instantiate all movies here
+
+## Instantiate all movies here
 
 lord_of_the_rings = media.Movie("Lord of the Rings: Fellowship of the Ring", 
                                 "Story of the lord of the rings",
@@ -29,5 +30,8 @@ matrix_revolutions = media.Movie("Matrix Revolutions",
                                  "https://upload.wikimedia.org/wikipedia/en/3/34/Matrix_revolutions_ver7.jpg",
                                  "https://www.youtube.com/watch?v=NhoaoTZJSX4")
 
+## Create movie array with all instantiated movies
 movies = [lord_of_the_rings, matrix, matrix_reloaded, matrix_revolutions]
+
+## Call method on fresh_tomatoes.py file that creates html page based on movies array
 fresh_tomatoes.open_movies_page(movies);
