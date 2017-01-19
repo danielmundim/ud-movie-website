@@ -6,7 +6,8 @@ Created on Tue Jan 17 12:16:05 2017
 """
 import webbrowser
 
-## Movies class 
+# Movies class
+
 
 class Movie():
 """
@@ -25,7 +26,6 @@ Movie class used to instantiate movie objects to be used on creating the movies 
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = url_trailer
-        
 
     def show_trailer(self):
         """
